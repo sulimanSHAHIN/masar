@@ -1,0 +1,46 @@
+.Add-user{
+    background-color: #222;
+    margin: 4rem 2rem;
+    padding: 3rem 3rem;
+    color: white;
+    border-radius: 2rem;
+    box-shadow: 6px 6px 15px rgb(0 0 0 / 77%);
+
+}
+
+.Name-section{
+    font-size: 1.8rem;
+    color:#06BBCC;
+    font-weight: 700;
+    font-family: Oldenburg;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+@media (max-width:1000px) {
+ .Add-user111{
+    flex-direction: column;
+    align-items: start !important;
+}
+div{
+    margin-top: 1rem;
+}
+.One-studentIn{
+    height: 20rem;
+}
+.One-TeacherIn {
+    height: 13rem;
+}
+.One-TeacherIn div{
+    width: 90% !important;
+}
+.One-studentIn div{
+    width: 90% !important;
+}
+}
+@media (max-width:500px) {
+    .Add-user{
+        margin: 4rem 0rem;
+        padding: 3rem 1rem;
+    
+    }
+   }
